@@ -226,9 +226,9 @@ void ofExitCallback(){
     
 	ofNotifyExit();
 
-	ofRemoveAllURLRequests();
-	ofStopURLLoader();
-	Poco::Net::SSLManager::instance().shutdown();
+	//ofRemoveAllURLRequests(); //oriol this crashes at exit with ofxSimpleHttp registering a factory already
+	//ofStopURLLoader();
+	//Poco::Net::SSLManager::instance().shutdown();
 
     ofRemoveListener(ofEvents().setup,OFSAptr.get(),&ofBaseApp::setup,OF_EVENT_ORDER_APP);
     ofRemoveListener(ofEvents().update,OFSAptr.get(),&ofBaseApp::update,OF_EVENT_ORDER_APP);
