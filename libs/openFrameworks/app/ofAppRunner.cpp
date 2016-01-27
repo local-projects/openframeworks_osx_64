@@ -38,7 +38,7 @@ static ofPtr<ofAppBaseWindow> 		window;
 // default windowing
 #ifdef TARGET_NODISPLAY
 	#include "ofAppNoWindow.h"
-#elif defined(TARGET_OF_IOS)
+#elif defined(TARGET_wOF_IOS)
 	#include "ofAppiOSWindow.h"
 #elif defined(TARGET_ANDROID)
 	#include "ofAppAndroidWindow.h"

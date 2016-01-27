@@ -11,7 +11,7 @@
 		2E19AEE917B35DC20097F5A9 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E19AEE717B35DC20097F5A9 /* thumbnail@2x.png */; };
 		2E2C368F1759C567003679C0 /* ScreenSaver-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E2C368E1759C567003679C0 /* ScreenSaver-Info.plist */; };
 		2E2C36911759C58D003679C0 /* ofxScreenSaver-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2E2C36901759C58D003679C0 /* ofxScreenSaver-Prefix.pch */; };
-		2EBB52561891C3C10009E903 /* openFrameworks copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBB52521891BD090009E903 /* openFrameworks copy.a */; };
+		2EBB52561891C3C10009E903 /* openFrameworksNoFMODDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */; };
 		2EBB52571891C3D10009E903 /* Screensaver.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2EBDE1231891AF1300147935 /* Screensaver.xcconfig */; };
 		2EBB52601891D76B0009E903 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBB525F1891D76B0009E903 /* preview.png */; };
 		2EBDE1201891AE0D00147935 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
@@ -203,7 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EBB52561891C3C10009E903 /* openFrameworks copy.a in Frameworks */,
+				2EBB52561891C3C10009E903 /* openFrameworksNoFMODDebug.a in Frameworks */,
 				EA1A4C3614B74A310090BC2B /* Cocoa.framework in Frameworks */,
 				EA1A4C3814B74A310090BC2B /* ScreenSaver.framework in Frameworks */,
 				EA1A4C7D14B74F030090BC2B /* Cocoa.framework in Frameworks */,
@@ -330,7 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				EA1A4C5114B74A560090BC2B /* openFrameworksDebug.a */,
-				2EBB52521891BD090009E903 /* openFrameworks copy.a */,
+				2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -423,7 +423,7 @@
 		EA1A4C2714B74A310090BC2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = EA1A4C2A14B74A310090BC2B /* Build configuration list for PBXProject "ofxScreenSaver" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -450,10 +450,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2EBB52521891BD090009E903 /* openFrameworks copy.a */ = {
+		2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "openFrameworks copy.a";
+			path = openFrameworksNoFMODDebug.a;
 			remoteRef = 2EBB52511891BD090009E903 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
