@@ -51,4 +51,10 @@ OF_CORE_HEADERS_NO_FMOD = $(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADE
 USER_HEADER_SEARCH_PATHS = "$(OF_PATH)/libs/openssl/include"
 
 
+/// add ccache to the build system! speeds up compile times by caching!
+/// "$ brew install ccache" to install it
+CC = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang.sh
+CXX = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/ccache-clang++.sh
+
+
 

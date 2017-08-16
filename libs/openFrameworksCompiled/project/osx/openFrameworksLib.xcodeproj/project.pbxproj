@@ -1173,7 +1173,6 @@
 					/System/Library/Frameworks,
 				);
 				INSTALL_PATH = /usr/local/lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/debug/";
 				OTHER_LDFLAGS = (
 					"$(LIB_POCO_ALL)",
@@ -1186,7 +1185,6 @@
 					"$(LIB_GLUT)",
 				);
 				PRODUCT_NAME = openFrameworksNoFMODDebug;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1206,7 +1204,6 @@
 				);
 				GCC_FAST_MATH = YES;
 				INSTALL_PATH = /usr/local/lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/release/";
 				OTHER_LDFLAGS = (
 					"$(LIB_POCO_ALL)",
@@ -1219,7 +1216,6 @@
 					"$(LIB_GLUT)",
 				);
 				PRODUCT_NAME = openFrameworksNoFMOD;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1249,7 +1245,6 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/debug/";
 				OTHER_LDFLAGS = (
 					"$(LIB_POCOFOUNDATION)",
@@ -1265,7 +1260,6 @@
 					"$(LIB_FMODEX)",
 				);
 				PRODUCT_NAME = openFrameworksDebug;
-				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
@@ -1297,7 +1291,6 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/release/";
 				OTHER_LDFLAGS = (
 					"$(LIB_POCOFOUNDATION)",
@@ -1313,33 +1306,34 @@
 					"$(LIB_FMODEX)",
 				);
 				PRODUCT_NAME = openFrameworks;
-				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
 		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = ../../SDKs/MacOSX10.9.sdk;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/debug/";
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/debug/";
-				SDKROOT = macosx10.9;
+				SDKROOT = ../../SDKs/MacOSX10.9.sdk;
 			};
 			name = Debug;
 		};
 		E4B69B4F0A3A1720003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = ../../SDKs/MacOSX10.9.sdk;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/release/";
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/release";
-				SDKROOT = macosx10.9;
+				SDKROOT = ../../SDKs/MacOSX10.9.sdk;
 			};
 			name = Release;
 		};
