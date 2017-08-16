@@ -1163,6 +1163,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EBB524B1891BBF20009E903 /* DebugNoFmod.xcconfig */;
 			buildSettings = {
+				ADDITIONAL_SDKS = "";
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
@@ -1192,6 +1193,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EBB524C1891BBF20009E903 /* ReleaseNoFmod.xcconfig */;
 			buildSettings = {
+				ADDITIONAL_SDKS = "";
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
@@ -1312,28 +1314,28 @@
 		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = ../../SDKs/MacOSX10.9.sdk;
+				ADDITIONAL_SDKS = "";
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/debug/";
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/debug/";
-				SDKROOT = ../../SDKs/MacOSX10.9.sdk;
+				SDKROOT = ../../../../../SDKs/MacOSX10.9.sdk;
 			};
 			name = Debug;
 		};
 		E4B69B4F0A3A1720003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = ../../SDKs/MacOSX10.9.sdk;
+				ADDITIONAL_SDKS = "";
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/release/";
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/release";
-				SDKROOT = ../../SDKs/MacOSX10.9.sdk;
+				SDKROOT = ../../../../../SDKs/MacOSX10.9.sdk;
 			};
 			name = Release;
 		};
